@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_superior{
+    background-color: dimgrey;
+    color: aliceblue;
+    width: 100%;
+    position: relative;
+    top: 30px;
+
+ }
+
+.nav_superior ul{
+text-align: right;
+}
+
+.nav_superior li{
+    display: inline-block;
+    margin: 5px;
+    width: auto;
+    height: auto;
+
+}
+
+.main_nav{
+    background-color: #333;
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.nav_menu{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.nav_logo img{
+    height: 100%;
+
+}
+
+.nav_menu a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 2em;
+    width: auto;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+.nav_menu a:hover{
+    color: aquamarine;
+    
+}
+
+.main_aside{
+    background-color: orange;
+    min-width: 200px;
+    width: 40%;
+    height: 80vh;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.main_aside div{
+    background-color: red;
+    /* width: auto; */
+    width: 80%;
+    height: 20%;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+main {
+    background-color: beige;
+    display: flex;
+    /* width: 800px; */
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.main_section_1{
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+    padding: 0;
+
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    }
+
+main section div{
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 5px;
+}
+
+
+.main_section_2{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main_section_2 div{
+    border-radius: 10px;
+}
+
+.containerCaC{
+    background-color: #333;
+    color: antiquewhite;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerLogoCaC{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 200px;
+}
+
+.containerLogoCaC p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+footer{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    color: aliceblue;
+}
