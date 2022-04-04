@@ -1,3 +1,8 @@
+:root{
+    --nav-color:blueviolet;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,16 +10,16 @@
 }
 
 .nav_superior{
-    background-color: dimgrey;
+    background-color:var(--nav-color);
     color: aliceblue;
     width: 100%;
-    position: relative;
-    top: 30px;
-
+    /* position: relative; */
+    /* top: 30px; */
  }
 
 .nav_superior ul{
 text-align: right;
+margin-right: 20%;
 }
 
 .nav_superior li{
@@ -162,5 +167,24 @@ footer{
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
+    height: 40px;
     color: aliceblue;
+}
+
+.footer_texto::before{
+    color: aliceblue;
+}
+
+.icon::before {
+    /* removed font- based rules */
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.footer_texto::before{
+   color: aliceblue;
+   font: var(--fa-font-solid);
+   content: "\f0ed";
+   padding: 0 5px;
 }
